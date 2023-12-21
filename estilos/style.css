@@ -1,0 +1,111 @@
+nav {
+    display: flex;
+    transition: 0.15s;
+    margin: 2px;
+    width: 1000px;
+    height: 100px;
+}
+
+nav ul li:hover {
+    background-color: rgb(219, 186, 248);
+    right: 5%;
+    left: 5%;
+}
+
+body {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    margin: 12px;
+    padding-left: 10%;
+    
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.contenedor {
+    margin: 12px;
+    width: 970px;
+    padding-left: 200px;
+    vertical-align: top;
+}
+
+.card {
+    margin: 12px;
+    width: auto;
+    max-width: 1000px;
+    display: inline-table;
+    align-items: start;
+    vertical-align: top;
+}
+
+.text-nowrap {
+    padding-right: 1000px;
+    background-color: rgb(233, 234, 238);
+    display: block;
+}
+
+.footer {
+    margin: 12px;
+    width: 1000px;
+    text-align:center;
+    background-color: rgb(236, 233, 238);
+    padding: 18px 20px;
+    line-height: 25px;
+}
+
+.parrafo {
+    max-width: 90px;
+    display: flex
+}
+
+.img-fluid {
+    margin: 50px;
+    height: 100px;
+    width: 200px;
+    
+}
+
+.titulo {
+    align-content: center;
+    
+}
+
+.botones {
+    display: flex;
+    margin-left: 300px;
+    height: 100px;
+    width: 110px;
+    
+}
+
+.imagenes {
+    vertical-align: top;
+    max-width: auto;
+    display: flex;
+    align-items: first baseline;
+}
+.clear{
+    max-width: 300px;
+}
+
+.cardin{  
+    margin: 12px;
+    width: auto;
+    height: auto;
+    max-width: auto;
+    border-left-color: rgb(43, 116, 226);
+    text-align: center;
+}
+
+
+    .carousel-caption h1 {
+        color: blue; /* Cambia a tu color deseado */
+    }
+
+    .carousel-caption p {
+        color: rgb(0, 13, 128); /* Cambia a tu color deseado */
+    }

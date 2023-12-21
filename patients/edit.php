@@ -6,10 +6,10 @@ $data = mysqli_fetch_object($p->getOne($_GET['id']));
 $data = new DateTime($data->motivoDeConsulta);
 
    if (isset($_POST) && !empty($_POST)){
-    $_POST ['image'] = $data->nombreCompleto;
-    if ($_FILES['image''name'] !==''){
-        $_POST['image'] = saveImage($_FILES);
- }
+    /* $_POST ['image'] = $data->nombreCompleto;
+    if ($_FILES['imagen']['name'] !== ''){
+        $_POST['imagen'] = saveImage($_FILES);
+      } */
 $update = $p->update($_POST);
 if ($update){
     $error = '<div class = "alert alert-success" role="alert"> Registro modificado</div>';

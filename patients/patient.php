@@ -28,7 +28,7 @@
 
     function getAll(){
         $sql = "SELECT * FROM Patients ORDER BY sessionDate ASC";
-        return mysqli_query($this->conn, $sql);
+        return mysqli_query ($this->conn, $sql);
     }
 
     function getOne($id) { 

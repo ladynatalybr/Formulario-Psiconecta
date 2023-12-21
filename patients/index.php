@@ -1,6 +1,6 @@
 <?php
 include("../config/config.php");
-include("'patient.php");
+include("patient.php");
 $p = new Patient();
 
 $allPatients= $p->getAll();
